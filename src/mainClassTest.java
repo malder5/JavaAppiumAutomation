@@ -10,4 +10,11 @@ public class mainClassTest extends mainClass {
 
         }
     }
+    @Test
+    public void testGetClassNumber(){
+        if (this.getClassNumber()<=45) {
+         Assert.fail("Число меньше 45");
+        }
+
+    }
 }
